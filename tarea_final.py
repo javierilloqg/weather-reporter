@@ -1,8 +1,23 @@
+#******************************************************************************
+#* Copyright (C) 2020 by Javier Quesada Galban
+#*
+#* Python script to show weather forecast for desired cities
+#*
+#******************************************************************************
+#
+#* @file tarea_final.py
+#* @author Javier Quesada Galban
+#* @date 13 April 2021
+#* @brief This script gets data from openweathermap via API and returns the 
+#  weather for desired city.  
+#*
+#
+
 import swowpy
 from modulo_presion import comprobarpresion
 from modulo_direccion_viento import direccion
 
-api_key = "0a829cebb38e0368c2e999930c0336dc"
+api_key = "" #Personal API key here
 
 ciudades = input("Introduce diez ciudades, separadas por coma: ")
 tabla_ciudades = ciudades.split(",")
