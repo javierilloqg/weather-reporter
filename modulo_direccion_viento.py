@@ -1,4 +1,16 @@
-#otra chapuza para convertir los grados meteorológicos a puntos cardinales. Seguro que se puede hacer más facil con listas y for. Poco preciso pero para el viento puede servir
+#******************************************************************************
+#* Copyright (C) 2020 by Javier Quesada Galban
+#*
+#* Python module to show wind direction
+#*
+#******************************************************************************
+#
+#* @file modulo_direccion_viento.py
+#* @author Javier Quesada Galban
+#* @date 13 April 2021
+#* @brief This module returns cardinal points based on wind direction (degrees)  
+#*
+#
 
 def direccion(grados):
     if grados == 0 or grados == 360:
